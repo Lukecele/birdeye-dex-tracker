@@ -1,8 +1,18 @@
+# Secrets & Environment
+.env*
+!.env.example
+*.pem
+*.key
+
+# Dependencies & Build outputs
 node_modules/
 build/
 dist/
 coverage/
+
+# OS & Editor files
 .DS_Store
 *.log
-.env*
-!.env.example
+.vscode/
+.idea/
+.vercel/
