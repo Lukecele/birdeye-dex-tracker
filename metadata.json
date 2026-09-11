@@ -1,0 +1,6 @@
+{
+  "name": "Birdeye Telegram Bot",
+  "description": "Telegram Buy/Sell Bot that aggregates Birdeye Dex trades across all pools for a specific token.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
