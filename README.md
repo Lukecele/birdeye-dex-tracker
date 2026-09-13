@@ -1,5 +1,11 @@
 # DEX Swap Tracker & Telegram Bot
 
+[![CI](https://github.com/Lukecele/birdeye-dex-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/Lukecele/birdeye-dex-tracker/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Google Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-Deployed-4285F4?logo=googlecloud&logoColor=white)](https://birdeye-telegram-bot-697887897331.europe-west2.run.app)
+[![Telegram Bot](https://img.shields.io/badge/Telegram_Bot-@ArbincMoon__bot-26A5E4?logo=telegram&logoColor=white)](https://t.me/ArbincMoon_bot)
+[![Network: BSC](https://img.shields.io/badge/Network-BNB_Smart_Chain-F0B90B?logo=binance&logoColor=white)](https://bscscan.com)
+
 A real-time DEX liquidity pool swap tracker and Telegram alert bot with an interactive web administration dashboard. Built with Express, Vite, React, TypeScript, Ethers.js, and Google Cloud Run.
 
 **Live Web Dashboard:** [https://birdeye-telegram-bot-697887897331.europe-west2.run.app](https://birdeye-telegram-bot-697887897331.europe-west2.run.app)  
