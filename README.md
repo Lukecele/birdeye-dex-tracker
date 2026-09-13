@@ -27,7 +27,7 @@ The application includes an integrated web control dashboard that allows adminis
   - On-the-fly token contract address and chain configuration.
   - Dynamic language toggle (EN / IT).
   - Recent transactions visual feed.
-- **Serverless Cloud Deployment:** Containerized and optimized for Google Cloud Run and Vercel edge reverse proxy.
+- **Cloud Container Deployment:** Containerized and optimized for continuous execution on Google Cloud Run.
 
 ---
 
@@ -35,7 +35,7 @@ The application includes an integrated web control dashboard that allows adminis
 
 - **Backend:** Node.js, Express, Ethers.js, Telegram Bot API
 - **Frontend:** React, Vite, TypeScript, Tailwind CSS, Lucide React
-- **Cloud & DevOps:** Google Cloud Run, Docker, Vercel
+- **Cloud & DevOps:** Google Cloud Run, Docker
 
 ---
 
