@@ -2,7 +2,7 @@
 
 A real-time DEX liquidity pool swap tracker and Telegram alert bot with an interactive web administration dashboard. Built with Express, Vite, React, TypeScript, Ethers.js, and Google Cloud Run.
 
-**Live Web Dashboard:** [https://birdeye-dex-tracker.vercel.app](https://birdeye-dex-tracker.vercel.app)  
+**Deployment:** Self-Hosted Node.js Daemon & Administration Dashboard (Docker / Cloud Run / VPS)  
 **License:** MIT
 
 ---
