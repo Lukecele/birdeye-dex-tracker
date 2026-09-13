@@ -3,7 +3,8 @@
 A real-time DEX liquidity pool swap tracker and Telegram alert bot with an interactive web administration dashboard. Built with Express, Vite, React, TypeScript, Ethers.js, and Google Cloud Run.
 
 **Live Web Dashboard:** [https://birdeye-telegram-bot-697887897331.europe-west2.run.app](https://birdeye-telegram-bot-697887897331.europe-west2.run.app)  
-**Production Telegram Bot:** [@ArbincMoon_bot](https://t.me/ArbincMoon_bot) (Live Buy/Sell alert bot in community topic)  
+**Production Telegram Bot:** [@ArbincMoon_bot](https://t.me/ArbincMoon_bot)  
+**Live Broadcast Channel:** [Arbitrage Inception Telegram](https://t.me/ArbitrageInception) (Topic: *All Buys and Sells*)  
 **Deployment:** Google Cloud Run (Containerized Express Daemon & Web Dashboard)  
 **License:** MIT
 
