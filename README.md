@@ -60,6 +60,15 @@ npm run dev
 
 ---
 
+## ⚖️ Open-Source Architecture & Non-Custodial Notice
+
+This repository contains free, open-source telemetry and event alerting software (MIT License) developed and maintained by independent open-source software engineers.
+
+- **Non-Custodial Telemetry:** This application connects in read-only mode to public blockchain RPC nodes and Birdeye APIs to index trade events. It does not execute swaps, hold custody of user keys or funds, or provide financial or investment advisory services.
+- **MiCA Exemption (Recital 22):** Independent, non-custodial analytics and decentralized event monitoring tools without financial custody operate outside the scope of crypto-asset service provider (CASP) regulations.
+
+---
+
 ## License
 
-Released under the MIT License.
+Released under the [MIT License](./LICENSE).
