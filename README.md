@@ -4,7 +4,7 @@ A real-time DEX liquidity pool swap tracker and Telegram alert bot with an inter
 
 **Live Web Dashboard:** [https://birdeye-telegram-bot-697887897331.europe-west2.run.app](https://birdeye-telegram-bot-697887897331.europe-west2.run.app)  
 **Production Telegram Bot:** [@ArbincMoon_bot](https://t.me/ArbincMoon_bot)  
-**Live Broadcast Channel:** [Arbitrage Inception Telegram](https://t.me/ArbitrageInception) (Topic: *All Buys and Sells*)  
+**Live Broadcast Topic:** [All Buys & Sells](https://t.me/arbitrageinception/80770) (inside [Arbitrage Inception Telegram](https://t.me/ArbitrageInception))  
 **Deployment:** Google Cloud Run (Containerized Express Daemon & Web Dashboard)  
 **License:** MIT
 
