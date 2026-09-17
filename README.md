@@ -24,6 +24,36 @@ The application includes an integrated web control dashboard that allows adminis
 
 ---
 
+## 🏛️ System Architecture
+
+```mermaid
+flowchart TD
+    subgraph DataSources ["Data Layer and On-Chain Sources"]
+        BE["Birdeye Data Services<br>(REST API and Price Tickers)"]
+        RPC["EVM and Solana RPC Nodes<br>(On-Chain Logs and Swap Events)"]
+    end
+
+    subgraph ProcessingDaemon ["Express Daemon on Cloud Run"]
+        Worker["Telemetry Worker Daemon<br>(Configurable Polling Loop)"]
+        Parser["Swap Event Normalizer<br>(Volume USD and Price Parser)"]
+        Config["Dynamic Settings State<br>(Contract, Chain, Locale EN/IT)"]
+    end
+
+    subgraph Presentation ["Distribution and Control Interfaces"]
+        TG["Telegram Bot Service<br>(@ArbincMoon_bot Alerts)"]
+        UI["Web Administration Dashboard<br>(React + Vite + Tailwind)"]
+    end
+
+    BE --> Worker
+    RPC --> Worker
+    Worker --> Parser
+    Config --> Worker
+    Parser --> TG
+    Parser --> UI
+```
+
+---
+
 ## Key Features
 
 - **Real-Time Swap Streaming:** Listens to liquidity pool swap events via Birdeye API and on-chain logs with configurable polling intervals.
